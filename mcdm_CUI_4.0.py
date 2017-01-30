@@ -33,7 +33,7 @@ def mcdm():
         for i in s_ideal:
             print('\n',i,' ', s_ideal[i],'\n');
 
-        #s_ideal and ideal back to same condition as before....(both initialized)
+        #s_ideal and ideal back to same condition as before....(both initialized).......weights are stored in l...
         s_ideal = {};
         ideal = [];
         
