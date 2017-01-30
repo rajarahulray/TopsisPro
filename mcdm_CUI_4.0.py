@@ -25,7 +25,8 @@ def mcdm():
         
         for i in range(5):
             l.append(float(input()));
-        s_ideal['weights'] = l;#s_ideal is used here to store weights with tag 'weights'..
+        s_ideal['weights'] = l;
+        #s_ideal is used here to store weights with tag 'weights'...for repressentation purspose only..
         #Printing Matrix with weights..:
         for i in ideal:
             print('\n',i,' ', d[i]);
