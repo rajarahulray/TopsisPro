@@ -15,5 +15,6 @@ from user for the products from which on has to be choosen as an optimal solutio
 This repository contains all the test files and versions from begining to the final build which makes it a bit confusing to pick the right file. The final build is the file named MCDM_GUI.py and the .exe file for that is MCDM_GUI.exe.
 
 # How to run program
-
+ # To run MCDM_GUI.py file
+ 
 
