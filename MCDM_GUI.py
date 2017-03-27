@@ -157,7 +157,7 @@ def multiple_entry(l, old_root, n):
              
              y_inc += 20;
         
-        Button(r, text = "0 Kelvin", command = lambda : mcdm(lth, lj, ld, llr, lc, n)).place(x = 400, y = 50 + y_inc);
+        Button(r, text = "OK", command = lambda : mcdm(lth, lj, ld, llr, lc, n)).place(x = 400, y = 50 + y_inc);
         
         r.geometry('800x{}'.format(y_inc + 90));
     
@@ -185,7 +185,7 @@ def network_name(n, old_root):
             l.append(e);
             e.pack();
 
-        b = Button(frame, text = "0 Kelvin", command = lambda : multiple_entry(l, r, n))
+        b = Button(frame, text = "OK", command = lambda : multiple_entry(l, r, n))
         b.pack();
         
         canvas.configure(yscrollcommand=scroll.set);
