@@ -188,7 +188,7 @@ def multiple_entry(l, old_root, n):
 #        canvas.create_window((4, 4), window=frame, anchor="nw");
 #        frame.bind('<Configure>', lambda event, canvas = canvas: onFrameConfigure(canvas));
         
-        #Canvas and frame are not affecting the root for scrollthe region....
+        #Canvas and frame are not affecting the root for scrolling the region....
         
         r.geometry('800x{}'.format(y_inc + 90));
         
